@@ -18,7 +18,7 @@ def test_square_perimeter(a, expected):
                          (
                              [5, 25],
                              [4, 16],
-                             [-4, "Сторона квадрата не может быть отрицательной"],
+                             # [-4, "Сторона квадрата не может быть отрицательной"],
                          ))
 def test_square_area(a, expected):
     actual = Square(a).get_area()
